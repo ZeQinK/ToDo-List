@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="todo-container">
+        <div id="todo-header">
+            <h1>ToDo List</h1>
+        </div>
+        <div id="add-todo">
+            <input type="text" placeholder="New ToDo" class="new-todo" id="input-box" name="input-box">
+            <button id="input-button" onclick="addTask()">Add</button>
+        </div>
+        
+        <h2>Task List</h2>
+        <div id="todo-counter">
+            <h4>Yay! You completed  <span id="completed-counter">0</span> tasks!</h4>
+        </div>
+        <ul id="list-container"></ul>
+
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
